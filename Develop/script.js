@@ -8,7 +8,7 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
-  var buttonEL = $('hour-9')
+  var buttonEL = $('#hour-9')
 
   function renderLastRegistered() {
     var nineAM = localStorage.getItem("nineAM");
@@ -21,7 +21,7 @@ $(function () {
   }
 
   function handleCalanderSubmit() {
-    var nineAM = document.getElementById("Calendar9").value
+    var nineAM = document.getElementById("#Calendar9").value
     localStorage.setItem("nineAM", nineAM);
     renderLastRegistered();
   }
