@@ -8,30 +8,46 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
+
+  // TODO: Add code to get any user input that was saved in localStorage and set
+  // the values of the corresponding textarea elements. HINT: How can the id
+  // attribute of each time-block be used to do this?
+
   var buttonEL = $('.saveBtn')
 
   function renderLastRegistered() {
+
     var nineHour = localStorage.getItem("nineEL");
+    $('#Calendar9').val(nineHour)
+
     var tenHour = localStorage.getItem("tenEL");
+    $('#Calendar10').val(tenHour)
+
     var elevenHour = localStorage.getItem("elevenEL");
+    $('#Calendar11').val(elevenHour)
+
     var twelveHour = localStorage.getItem("twelveEL");
+    $('#Calendar12').val(twelveHour)
+
     var thirteenHour = localStorage.getItem("thirteenEL");
+    $('#Calendar13').val(thirteenHour)
+
     var fourteenHour = localStorage.getItem("fourteenEL");
+    $('#Calendar14').val(fourteenHour)
+
+    var fifteenHour = localStorage.getItem("fifteenEL");
+    $('#Calendar15').val(fifteenHour)
+
     var sixteenHour = localStorage.getItem("sixteenEL");
+    $('#Calendar16').val(sixteenHour)
+
     var seventeenHour = localStorage.getItem("seventeenEL");
-
-    // TODO: Add code to get any user input that was saved in localStorage and set
-    // the values of the corresponding textarea elements. HINT: How can the id
-    // attribute of each time-block be used to do this?
-
-    $('#Calendar9 .description').val(localStorage.getItem("nineEL"))
-    
-    console.log(nineHour)
+    $('#Calendar17').val(seventeenHour)
 
 
   }
 
-  $('#Calendar9 .description').val(localStorage.getItem("nineEL"))
+
 
 
   function handleCalanderSubmit() {
