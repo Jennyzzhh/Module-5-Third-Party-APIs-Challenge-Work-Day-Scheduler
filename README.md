@@ -19,5 +19,7 @@
 
 ## deployed application
 
-[application link] (https://jennyzzhh.github.io/Module-4-Web-APIs/)
-[Github link] (https://github.com/Jennyzzhh/Module-4-Web-APIs.git)
+[application link] (https://jennyzzhh.github.io/Module-5-Third-Party-APIs-Challenge-Work-Day-Scheduler/)
+
+[Github link] (https://github.com/Jennyzzhh/Module-5-Third-Party-APIs-Challenge-Work-Day-Scheduler.git)
+
